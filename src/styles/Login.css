@@ -1,0 +1,26 @@
+#login-message {
+    text-align: center;
+    color: rgb(189, 31, 31);
+    font-weight: bold;
+}
+
+#login-data {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.quote {
+    text-align: center;
+    font-weight: initial;
+    font-size: 28px;
+    padding: 10px;
+    color: rgb(33, 57, 73);
+
+}

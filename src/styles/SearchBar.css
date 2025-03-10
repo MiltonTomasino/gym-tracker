@@ -1,0 +1,107 @@
+/* Updated styling for the search bar container */
+.search-bar-container {
+    max-width: 60%;
+    margin: 20px auto; /* Add some vertical margin */
+  }
+  
+  /* Styling for the search wrapper */
+  .search-wrapper {
+    width: 100%;
+  }
+  
+  /* Styling for the input wrapper */
+  .input-wrapper {
+    max-width: 60%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center; /* Align the items horizontally */
+    justify-content: center; /* Center the content horizontally */
+    margin-bottom: 20px; /* Add spacing between input and button */
+  }
+  
+  /* Styling for the input field */
+  .input-wrapper input {
+    padding: 10px; /* Add padding to the input field */
+    border: 2px solid #ccc; /* Add a border to the input field */
+    border-radius: 5px; /* Add some border radius */
+    flex: 1; /* Allow the input field to grow and take available space */
+    font-size: 16px; /* Increase the font size */
+  }
+  
+  /* Styling for the search button */
+  .input-wrapper button {
+    background-color: rgb(52, 47, 199);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px; /* Add some spacing between input and button */
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Hover effect for the search button */
+  .input-wrapper button:hover {
+    background-color: rgb(44, 44, 143);
+  }  
+  
+  /* Styling for the search results header */
+  #search-results-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Add spacing between header and results */
+  }
+  
+  /* Styling for the filter select dropdown */
+  #search-results-header select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Styling for the search message */
+  #search-message {
+    margin-top: 10px; /* Add spacing above the search message */
+    font-style: italic; /* Make the search message italic */
+  }
+  
+/* Styling for the search results container */
+.search-results {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; /* Allow results to wrap to the next line */
+    justify-content: center; /* Center the results horizontally */
+    }
+
+    .search-result-card {
+        border: 5px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+        text-align: left; /* Align the text to the left */
+    }
+
+    .search-result-card:hover {
+        background-color: rgb(201, 201, 201);
+    }
+    
+    /* Styling for the search result title */
+    .search-result-title {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    /* Styling for the search result description */
+    .search-result-description {
+    margin-top: 5px;
+    font-size: 16px;
+    }
+    
+    /* Styling for the search result muscle list */
+    .search-result-muscles {
+    margin-top: 5px;
+    font-size: 14px;
+    }

@@ -1,0 +1,12 @@
+#workout-planner-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#machine-list-container {
+    width: 50%;
+}
+
+#search-container {
+    width: 50%;
+}

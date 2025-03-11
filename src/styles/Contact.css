@@ -1,0 +1,27 @@
+.drop-down{
+    border: 1px solid grey;
+    background-color: white;
+    width: 900px;
+    margin-left: 10%;
+    padding: 10px;
+}
+
+.dropdown-title:hover{
+    cursor: pointer;
+    color: grey;
+}
+
+.feedback{
+    margin-top: 20px;
+    margin-left: 10%;
+    padding: 10px;
+}
+
+.feedback textarea{
+    width: 250px;
+    height: 100px;
+}
+
+.submit-button{
+    margin-top: 5px;
+}

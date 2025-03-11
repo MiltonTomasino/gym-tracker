@@ -1,0 +1,139 @@
+.list-title{
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sub-menu {
+	display: none;
+	position: absolute;
+	text-align: left;
+	background-color: #f9f9f9;
+	min-width: 145px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+#menu-link:hover {
+	background-color: lightgray;
+	color: white;
+}
+
+
+/* Show the submenu on hover */
+.menu:hover .sub-menu {
+	display: block;
+}
+
+.sub-menu a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+
+/* Cycle list css */
+
+.cyclelist-container{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.cyclelist-container h2{
+    max-width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cyclemachine{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 265px;
+    margin: 10px;
+    background-color: white;
+}
+
+.cyclemachine p{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 130px;
+}
+
+.edit-button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+}
+
+/* update spec component */
+
+.machine-settings{
+    display: flex;
+    flex-direction: column;
+}
+
+.pic-settings{
+    width: 400px;
+    height: 200px;
+}
+
+.settings-arrow{
+    cursor: pointer;
+    font-size: 70px;
+    position: relative;
+    top: 10px;
+    right: 250px;
+}
+
+.settings-arrow:hover{
+    color: grey;
+}
+
+.settings-items{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+.settings-items p{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.update-button{
+    cursor: pointer;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #00e600;
+    background-color: #00e600;
+}
+
+.update-button:hover{
+    background-color: white;
+    color: black;
+}
+
+.machine-input{
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}

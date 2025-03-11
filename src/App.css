@@ -1,0 +1,202 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    max-width: 250px;
+    /* border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 5px 10px 8px #888888; */
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.form2 {
+    background-color: #d4d4d4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+button.form-element {
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px
+}
+
+.form1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    max-width: 250px;
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Times New Roman', Times, serif;
+
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+
+}
+
+.form-element1 {
+    margin: 10px;
+}
+
+.form-element1 label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.form-element1 input {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkboxes {
+    margin-left: 5px;
+}
+
+.checkboxes small {
+    margin-left: 5px;
+}
+
+.form-element label {
+    display: inline-block;
+}
+
+.form-element input {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.HomePage-bannerimage {
+    width: 100%;
+}
+
+.HomePage-description {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-element footer {
+    text-align: left;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+.App {
+    background-color: #d4d4d4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+/* css for exclamation image */
+.termsImage {
+    max-width: 15px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.termsImage img {
+    max-width: 15px;
+    max-height: 15px;
+    border-bottom: 1px dotted black;
+    margin-left: 3px;
+}
+
+.tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: #e0e0eb;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* position of black box */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+
+    overflow: scroll;
+    max-height: 150px;
+
+}
+
+.termsImage:hover .tooltip {
+    visibility: visible;
+}
+
+#password {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.password-box {
+    position: relative;
+}
+
+.showPassword {
+    position: absolute;
+    top: 1%;
+    right: 4%;
+    cursor: pointer;
+    color: lightgray;
+}
+
+.Register-container {
+    display: grid;
+    grid-template-areas: 'box-1 box-2';
+    max-width: 40%;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.Register-container .box-1 {
+    margin: auto;
+    text-align: center;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-right: 1px solid grey;
+}
+
+.Register-container .box-2 {
+    margin-right: 20%;
+}
